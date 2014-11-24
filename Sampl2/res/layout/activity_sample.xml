@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    <com.example.sampl2.RippleEffect
+            android:id="@+id/more2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            ripple:rv_type="rectangle">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@android:color/holo_blue_light"
+            android:layout_gravity="center"
+            android:text="Rectangle Ripple effect"
+            android:padding="10dp"
+           />
+        </com.example.sampl2.RippleEffect>
+         <com.example.sampl2.RippleEffect
+            android:id="@+id/more3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            ripple:rv_type="doubleRipple">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@android:color/holo_blue_light"
+            android:layout_gravity="center"
+            android:text="Double Ripple  effect"
+            android:padding="10dp"
+           />
+        </com.example.sampl2.RippleEffect>
+         <com.example.sampl2.RippleEffect
+            android:id="@+id/more4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            ripple:rv_type="rectangle">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@android:color/holo_blue_light"
+            android:layout_gravity="center"
+            android:text="SimpleRipple Ripple effect"
+            android:padding="10dp"
+           />
+        </com.example.sampl2.RippleEffect>
+
+</LinearLayout>
